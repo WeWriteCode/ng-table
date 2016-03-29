@@ -1,3 +1,5 @@
+var angular = require('angular');
+
 (function(angular, factory) {
     'use strict';
 
@@ -8,7 +10,7 @@
     } else {
         return factory(angular);
     }
-}(window.angular || null, function(angular) {
+}(angular, function(angular) {
     'use strict';
 
 /**
